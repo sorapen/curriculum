@@ -1,0 +1,97 @@
+/**ウィンドウ幅が767pxまでの場合**/
+@media only screen and (min-width:450px) and (max-width: 479px){
+
+    .body{
+        width: 250px;
+    }
+    
+    .wrapper{
+        width: 250px;
+        margin:0 auto;
+    }
+    
+    .header{
+        width: 250px;
+        height: 100px;
+        background-color: #141f40;
+    }
+    
+    .left {
+        float: left;
+        width: 150px;
+        height: 250px;
+        background-color: #80bfa8;
+    }
+    
+    .right{
+        float: right;
+        width: 100px;
+        height: 250px;
+        background-color: #8c2727;
+    }
+    
+    .footer{
+        width: 250px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+    
+    .clearfix::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    
+  
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+@media screen and (max-width:479px) {
+
+    .body{
+    width: 150px;
+    }
+
+    .wrapper{
+    width: 150px;
+    margin:0 auto;
+    }
+
+.header{
+    width: 150px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+.left {
+    float: none;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+    .right{
+        float: none;
+        width: 150px;
+        height: 250px;
+        background-color: #8c2727;
+    }
+
+    .footer{
+        width: 150px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+
+    
+
+
+    *{
+    margin: 0;
+    padding: 0;
+    }
+}
+}
